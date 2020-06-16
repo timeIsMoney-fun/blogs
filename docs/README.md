@@ -4,7 +4,7 @@ heroImage: /logo.png
 heroText: Aaron 技术博客
 tagline: 种一颗树最好的时间就是十年前,其次就是现在
 actionText: start →
-actionLink: /zh/guide/
+actionLink: /blogs/html/html
 features:
 - title: 坚持
   details: 不忘初心，坚持到底。
