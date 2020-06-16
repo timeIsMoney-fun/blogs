@@ -1,5 +1,4 @@
 ---
-# https://segmentfault.com/a/1190000016333850
 home: true
 heroImage: /logo.png
 heroText: Aaron 技术博客
