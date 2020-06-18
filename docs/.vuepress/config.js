@@ -53,9 +53,12 @@ module.exports = {
       {
         title: "Css", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 1, // 可选的, 默认值是 1
+        sidebarDepth: 3, // 可选的, 默认值是 1
         children: [
           "/blogs/css/css",
+          "/blogs/css/css3",
+          "/blogs/css/rem",
+          "/blogs/css/xiang",
         ],
       },
       {
@@ -116,7 +119,7 @@ module.exports = {
         title: "数据库", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1, // 可选的, 默认值是 1
-        children: ["/blogs/sql/sql"],
+        children: ["/blogs/sql/mysqlinstall","/blogs/sql/mysql"],
       },
     ],
   },
