@@ -2,7 +2,7 @@ module.exports = {
   // https://segmentfault.com/a/1190000016333850
   title: "Aaron 技术博客",
   description: "胡庆的博客",
-  base: '/',
+  base: '/hu/',
   head: [
     ["link", { rel: "icon", href: "/favicon.png" }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
@@ -120,6 +120,12 @@ module.exports = {
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1, // 可选的, 默认值是 1
         children: ["/blogs/sql/mysqlinstall","/blogs/sql/mysql"],
+      },
+      {
+        title: "Nginx", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 3, // 可选的, 默认值是 1
+        children: ["/blogs/nginx/nginx"],
       },
     ],
   },
