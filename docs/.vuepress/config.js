@@ -88,8 +88,8 @@ module.exports = {
       {
         title: "Vue", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 1, // 可选的, 默认值是 1
-        children: ["/blogs/vue/vue"],
+        sidebarDepth: 4, // 可选的, 默认值是 1
+        children: ["/blogs/vue/vue","/blogs/vue/vue1"],
       },
       {
         title: "React", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
