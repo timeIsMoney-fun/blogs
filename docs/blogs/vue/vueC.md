@@ -4,9 +4,7 @@
 
 **效果**
 
-
-
-<img src="/vueC1.gif"/>
+<img :src="$withBase('/vueC1.gif')" alt="vue">
 
 
 **父组件使用**

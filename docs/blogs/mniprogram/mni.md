@@ -1,7 +1,6 @@
 # 小程序公告
 
-
-<img src="/gif1.gif">
+<img :src="$withBase('/gif1.gif')" alt="vue">
 
 
 wxml
