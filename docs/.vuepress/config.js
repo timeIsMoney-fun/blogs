@@ -89,7 +89,9 @@ module.exports = {
         title: "Vue", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 4, // 可选的, 默认值是 1
-        children: ["/blogs/vue/vue","/blogs/vue/vue1"],
+        children: ["/blogs/vue/vue","/blogs/vue/vue1",
+        "/blogs/vue/vueC"
+      ],
       },
       {
         title: "React", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
@@ -101,7 +103,7 @@ module.exports = {
         title: "小程序", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1, // 可选的, 默认值是 1
-        children: ["/blogs/mniprogram/mniprogram"],
+        children: ["/blogs/mniprogram/mni"],
       },
       {
         title: "Git", // 必要的      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
